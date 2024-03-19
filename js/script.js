@@ -25,10 +25,22 @@ function addRow(student){
 
     row.insertCell().innerHTML = student.id;
     row.insertCell().innerHTML = student.name;
-    row.insertCell().innerHTML = student.email;
-    row.insertCell().innerHTML = student.tel;
-    row.insertCell().innerHTML = courses[student.course-1];
-    row.insertCell().innerHTML = student.shift;
+
+    emailCell = row.insertCell();
+    emailCell.className = 'd-none d-md-table-cell';
+    emailCell.innerHTML = student.email;
+
+    telCell = row.insertCell();
+    telCell.className = 'd-none d-md-table-cell';
+    telCell.innerHTML = student.tel;
+
+    courseCell = row.insertCell();
+    courseCell.className = 'd-none d-sm-table-cell';
+    courseCell.innerHTML = courses[student.course-1];
+
+    shiftCell = row.insertCell();
+    shiftCell.className = 'd-none d-sm-table-cell';
+    shiftCell.innerHTML = student.shift;
 }
 
 function save(){

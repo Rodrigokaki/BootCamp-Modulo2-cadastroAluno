@@ -9,5 +9,7 @@ Projeto para o BootCampDevJr - Abutua
 
 ## Imagens do projeto
 ### Versão Desktop
+![Imagem da versão desktop](/assets/desktop.png "Imagem da versão desktop")
 
 ### Versão Mobile
+![Imagem da versão mobile](/assets/mobile.png "Imagem da versão mobile")
