@@ -72,3 +72,6 @@ function save(){
 
     document.getElementById("formStudents").reset();
 }
+
+//mask
+$("#inputTelephone").mask("(99) 99999-9999");
